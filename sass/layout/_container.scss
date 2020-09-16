@@ -1,0 +1,163 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    }
+
+h1, h2, h3, h4 {
+    font-family:'roboto' ;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.retour{
+    color: black;
+}
+p{
+    font-family: 'roboto';
+}
+
+.A{
+    background-color: $color-gray_clair;
+    border-top: 3px solid #D5D5D5;
+    height: 350px; 
+    width: 100%;
+    margin: auto;
+    h2{
+        font-size: 1.8em;
+
+    } 
+       .map{
+       display: flex;
+       background-color: $color-map;
+       font-size: 1.1em;
+       align-items: center;
+       justify-content: center;
+   
+       .ville a{
+       font-family: 'roboto';
+       color: $color-black;
+       text-decoration: none;
+       margin-left: 20px;
+        
+   }
+   }       
+}
+aside{
+     height: 1330px;
+     width: 100%;
+     margin: auto;
+     margin-bottom: 130px;
+     background-color: $color-gray_clair;
+     h3{
+         font-family: 'roboto',sans-serif;
+         text-align: center;
+         font-size: 2.8em;
+         margin: auto;
+         padding-top: 50px;
+         padding-bottom: 20px;
+     }
+    
+ 
+ }
+ .description span{
+     font-weight: 350;
+     font-family: 'roboto',sans-serif;
+ }
+ h4{
+    font-family: 'roboto';
+    margin-left: 20px;
+    margin-right: 41%;
+
+}
+
+.full-palette i{
+  font-size: 30px;
+  font-weight: lighter;
+  color: $color-gray;
+
+}
+ .section1{
+   @include menu;
+   background-image:url(image/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+   
+  }
+  .Menu{
+    margin:auto;
+    .lien{
+     color: $color-black ;
+     margin: auto;
+    }
+}
+
+  .new{
+     width: 60px;
+     height: 40px;
+     float: right;
+     margin-right: 12%;
+     text-align: center;
+     p{
+         background-color: $color-ter;
+         color: rgb(46, 150, 89);
+         font-weight: bold;
+         padding: 5px 30px 5px 30px;
+         width: 30px;
+         border-radius: 3px;
+     }
+      
+  }
+ 
+ .description{
+  @include description;
+  i{
+      font-size: 25px;
+      font-weight: 100;
+      background-image: url(image/heart-solid.png);
+  }
+ }
+ 
+ .section2{
+      @include menu;
+      background-image: url(image/stil-u2Lp8tXIcjw-unsplash.jpg);
+      background-position-y: -154px;
+      h4{
+          margin-right: 30%;
+      }
+  } 
+  .section3{
+      @include menu;
+      background-image: url(image/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+      h4{
+          margin-right: 56%;
+      }
+  }  
+ .section3 i{
+     
+     position: relative;
+ 
+ }
+  .section4{
+      @include menu;
+      background-image: url(image/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
+      h4{
+          margin-right: 44%;
+      }
+  }
+ 
+ .description i:hover{
+     display: none;
+     
+     
+ }
+ .description img{
+     width: 25px;
+     display: flex;
+     position: relative;
+     margin-left: -25px;
+     opacity: 0;
+ }
+ .description img:hover{
+        opacity: 1;
+ }
+ 
+ 
+ 

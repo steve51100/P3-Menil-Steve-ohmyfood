@@ -1,0 +1,576 @@
+/** animation loader debut **/
+@keyframes shk1 {
+  0% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes shk2 {
+  0% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes chargement {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+/** animation loader fin **/
+/** animation affichage page acceuil debut **/
+@keyframes main {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@font-face {
+  font-family: "shrikhandregular";
+  src: url("shrikhand-regular-webfont.woff2") format("woff2"), url("shrikhand-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "robotoregular";
+  src: url("roboto-regular-webfont.woff2") format("woff2"), url("roboto-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.explore {
+  font-family: "roboto";
+  font-size: 1.2em;
+  color: #FFFF;
+  display: block;
+  margin: auto;
+  padding: 20px;
+  border: transparent;
+  border-radius: 35px;
+  background-image: linear-gradient(#FF79DA, #9356DC);
+}
+
+header {
+  background-image: url(image/ohmyfood.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 230px;
+  width: 100%;
+  height: 70px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+header img {
+  align-content: center;
+  margin: auto;
+  width: 40%;
+}
+
+.footer {
+  width: 100%;
+  margin: auto;
+  background-color: #353535;
+  padding-top: 20px;
+  margin-top: -130px;
+  padding-bottom: 30px;
+}
+.footer h3 {
+  color: #FFFF;
+  margin-top: 10px;
+  font-size: 1.8em;
+}
+
+ul {
+  padding: 0px;
+}
+ul li {
+  color: #FFFF;
+  list-style: none;
+  margin-bottom: 10px;
+}
+ul li a {
+  color: #FFFF;
+  text-decoration: none;
+}
+
+.fa-utensils:before {
+  color: #FFFF;
+  margin-right: 10px;
+}
+
+.fa-hands-helping:before {
+  color: #FFFF;
+  margin-right: 10px;
+  font-size: 11px;
+}
+
+.contact {
+  width: 350px;
+  margin: auto;
+}
+
+nav {
+  width: 30%;
+  margin: auto;
+  margin-bottom: 70px;
+  margin-top: 50px;
+}
+nav h2 {
+  margin-bottom: 30px;
+  font-size: 2.8em;
+}
+nav .choix {
+  display: flex;
+  align-items: center;
+  background-color: #eeeeee;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  height: 60px;
+  box-shadow: 0px 0px 12px 3px #cececffa;
+  font-weight: bold;
+}
+nav .choix .number {
+  background-color: #9356DC;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  color: #FFFF;
+}
+nav .choix .number, nav .choix i {
+  margin-right: 25px;
+  margin-left: -10px;
+}
+
+.fas {
+  color: #757474;
+}
+
+.fa-store {
+  color: #9356DC;
+}
+
+nav .choix-3 {
+  background-color: rgba(147, 86, 220, 0.2);
+}
+
+h2 {
+  font-family: "roboto";
+  text-align: center;
+  font-size: 1.8em;
+  margin-top: 50px;
+}
+
+.text {
+  font-family: "roboto";
+  font-size: 1.3em;
+  text-align: center;
+  justify-content: center;
+  color: #757474;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+h1, h2, h3, h4 {
+  font-family: "roboto";
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.retour {
+  color: black;
+}
+
+p {
+  font-family: "roboto";
+}
+
+.A {
+  background-color: #f6f6f6;
+  border-top: 3px solid #D5D5D5;
+  height: 350px;
+  width: 100%;
+  margin: auto;
+}
+.A h2 {
+  font-size: 1.8em;
+}
+.A .map {
+  display: flex;
+  background-color: #eaeaea;
+  font-size: 1.1em;
+  align-items: center;
+  justify-content: center;
+}
+.A .map .ville a {
+  font-family: "roboto";
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+aside {
+  height: 1330px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 130px;
+  background-color: #f6f6f6;
+}
+aside h3 {
+  font-family: "roboto", sans-serif;
+  text-align: center;
+  font-size: 2.8em;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.description span {
+  font-weight: 350;
+  font-family: "roboto", sans-serif;
+}
+
+h4 {
+  font-family: "roboto";
+  margin-left: 20px;
+  margin-right: 41%;
+}
+
+.full-palette i {
+  font-size: 30px;
+  font-weight: lighter;
+  color: gray;
+}
+
+.section1 {
+  width: 350px;
+  height: 278px;
+  margin: auto;
+  position: relative;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-position-y: -50px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-image: url(image/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+}
+
+.Menu {
+  margin: auto;
+}
+.Menu .lien {
+  color: black;
+  margin: auto;
+}
+
+.new {
+  width: 60px;
+  height: 40px;
+  float: right;
+  margin-right: 12%;
+  text-align: center;
+}
+.new p {
+  background-color: #99E2D0;
+  color: #2e9659;
+  font-weight: bold;
+  padding: 5px 30px 5px 30px;
+  width: 30px;
+  border-radius: 3px;
+}
+
+.description {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  background: white;
+  width: 100%;
+  bottom: 0px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-transform: capitalize;
+}
+.description i {
+  font-size: 25px;
+  font-weight: 100;
+  background-image: url(image/heart-solid.png);
+}
+
+.section2 {
+  width: 350px;
+  height: 278px;
+  margin: auto;
+  position: relative;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-position-y: -50px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-image: url(image/stil-u2Lp8tXIcjw-unsplash.jpg);
+  background-position-y: -154px;
+}
+.section2 h4 {
+  margin-right: 30%;
+}
+
+.section3 {
+  width: 350px;
+  height: 278px;
+  margin: auto;
+  position: relative;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-position-y: -50px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-image: url(image/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+}
+.section3 h4 {
+  margin-right: 56%;
+}
+
+.section3 i {
+  position: relative;
+}
+
+.section4 {
+  width: 350px;
+  height: 278px;
+  margin: auto;
+  position: relative;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-position-y: -50px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-image: url(image/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
+}
+.section4 h4 {
+  margin-right: 44%;
+}
+
+.description i:hover {
+  display: none;
+}
+
+.description img {
+  width: 25px;
+  display: flex;
+  position: relative;
+  margin-left: -25px;
+  opacity: 0;
+}
+
+.description img:hover {
+  opacity: 1;
+}
+
+/** loader **/
+.sh1 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 50px 50px 0 0;
+  border-color: #1eff00 transparent transparent transparent;
+  margin: 0 auto;
+  animation: shk1 1s ease-in-out infinite normal;
+  -webkit-animation: shk1 1s ease-in-out infinite normal;
+}
+
+.sh2 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 50px 50px;
+  border-color: transparent transparent #df1a54 transparent;
+  margin: -50px auto 0;
+  animation: shk2 1s ease-in-out infinite alternate;
+  -webkit-animation: shk2 1s ease-in-out infinite alternate;
+}
+
+.lt {
+  color: #fffefe;
+  font-family: "Roboto", sans-serif;
+  margin: 30px auto;
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 10px;
+}
+
+.contener {
+  animation-name: chargement;
+  animation-duration: 0.005s;
+  animation-timing-function: ease;
+  animation-delay: 3s;
+  animation-iteration-count: initial;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+
+.contener {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+}
+.contener h4 {
+  font-size: 1.8em;
+  text-align: center;
+}
+.contener h4 span {
+  font-size: 0.5em;
+}
+
+main {
+  animation-name: main;
+  animation-duration: 0.005s;
+  animation-timing-function: ease;
+  animation-delay: 3s;
+  animation-iteration-count: initial;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+
+@media screen and (min-width: 1440px) {
+  .Menu {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  aside {
+    height: 850px;
+  }
+
+  .contact {
+    margin-left: 268px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .Menu1, .Menu2 {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  aside {
+    height: 850px;
+  }
+
+  .contact {
+    margin-left: 268px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .Menu1, .Menu2 {
+    display: flex;
+  }
+
+  aside {
+    height: 850px;
+  }
+
+  nav {
+    width: 60%;
+  }
+
+  .contact {
+    margin-left: 163px;
+  }
+}
+@media screen and (max-width: 767px) {
+  nav {
+    width: 80%;
+  }
+  nav h2 {
+    text-align: start;
+    font-size: 1.6em;
+  }
+
+  .align_menu {
+    width: 80%;
+    margin: auto;
+  }
+  .align_menu h3 {
+    text-align: center;
+    font-size: 1.6em;
+  }
+}
+@media screen and (max-width: 425px) {
+  .align_menu h3 {
+    text-align: start;
+  }
+}
+@media screen and (max-width: 375px) {
+  .section1, .section2, .section3, .section4 {
+    width: 300px;
+    height: 245px;
+  }
+
+  aside {
+    height: 1250px;
+  }
+
+  .contact {
+    width: 300px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 320px) {
+  header {
+    width: 100%;
+    background-size: 153px;
+    height: 35px;
+  }
+
+  .map {
+    font-size: 0.9em;
+  }
+  .map i {
+    margin-right: -5px;
+    margin-left: -36px;
+  }
+
+  .A h2 {
+    font-size: 1.6em;
+  }
+
+  aside {
+    height: 1000px;
+  }
+
+  .section1, .section2, .section3, .section4 {
+    width: 256px;
+    height: 192px;
+  }
+
+  .section2 {
+    background-position-y: -117px;
+  }
+
+  .description h4 {
+    font-size: 0.9em;
+  }
+
+  .contact {
+    width: 256px;
+    margin: auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,52 @@
+@mixin menu {
+  width: 350px;
+  height: 278px;
+  margin: auto;
+  position: relative;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-position-y: -50px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+    
+}
+@mixin description {
+ position: absolute;
+ display: flex;
+ align-items: center;
+ background: white;
+ width: 100%;
+ bottom: 0px;
+ border-bottom-right-radius: 10px;
+ border-bottom-left-radius: 10px;
+ text-transform: capitalize;
+}
+
+@font-face {
+  font-family: 'shrikhandregular';
+  src: url('shrikhand-regular-webfont.woff2') format('woff2'),
+       url('shrikhand-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+@font-face {
+  font-family: 'robotoregular';
+  src: url('roboto-regular-webfont.woff2') format('woff2'),
+       url('roboto-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@mixin police-title{
+  font-family:'shrikhandregular',sans-serif;
+}
+
+@mixin police-para{
+  font-family:'robotoregular',sans-serif;
+}

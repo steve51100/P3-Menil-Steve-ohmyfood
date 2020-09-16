@@ -1,0 +1,145 @@
+body{
+    margin: 0px;
+    padding: 0px;
+  
+  }
+  .page{
+    width: 730px;
+    margin: auto;
+  }
+  section{
+    width: 750px;
+    margin: auto;
+    cursor: pointer;
+  }
+  
+  
+  
+   .img img{
+     width: 730px;
+     margin: auto;
+     margin-left: 11px;
+     position: relative;
+   } 
+   .type{
+     font-size: 1.8em;
+     font-family: 'roboto',sans-serif;
+     font-weight: 300;
+     
+     span{
+       border-bottom: 3px solid #99E2D0;
+       margin-top: 10px;
+     }
+   }
+  
+   .carte_menu{
+     
+     margin: auto;
+     height: 1600px;
+     background-color: rgb(246,246,246);
+     
+     border-top-right-radius: 50px;
+     border-top-left-radius: 50px;
+     margin-top: -105px;
+     margin-left: 11px;
+     margin-right: -11px;
+     position: relative;
+    padding-left: 30px;
+     padding-top: 10px;
+     
+     .title{
+       display: flex;
+       align-items: center;
+       i{
+         width: 100%;
+         font-size: 50px;
+         font-weight: 350;
+         text-align: right;
+         margin-right: 50px;
+       }
+     }
+     h1{
+       font-family:'shrikhandregular',sans-serif;
+       margin-bottom: 25px;
+       align-items: center;
+       margin-right: 50px;
+       font-size: 2.6em;
+       
+       font-weight: lighter;
+     }
+   }
+   .menu{
+     display: flex;
+    width: 680px;
+    border-radius: 15px;
+    height: 100px;
+    font-family: 'roboto',sans-serif;
+    box-shadow: 0px 0px 20px rgb(189, 188, 188);
+    margin-bottom: 15px;
+    
+    }
+    
+    
+   .btn{
+      width: 680px;
+      height: 100px;
+      
+     box-shadow: 0px 0px 20px #bdbcbc;
+      border-radius: 15px;
+      font-family: 'roboto',sans-serif;
+      display: flex;
+      margin-bottom: 15px;
+     
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      flex-grow: 1;
+      
+      
+  }
+  .detail p{
+      font-size: 1.4em;
+      font-weight: bold;
+      width: 519px;
+      padding-left: 15px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      span{
+        font-weight: 300;
+        font-size: 20px;
+      }
+  }
+  
+  .prix{
+      width: 120px;
+      display: flex;
+      margin-left: 10px;
+      justify-content: center;
+      align-items: flex-end;
+      font-size: 20px;
+      font-weight: bold;
+  }
+  .animation{
+      background-color: #99e2c0;
+      color: white;
+      justify-content: center;
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px;
+      width: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      
+  }
+  .circle{
+    font-size: 1.2em;
+    transition: 700ms;
+    opacity: 0;
+  }
+  
+
+  /*--- modification detail full palette--*/
+
+  

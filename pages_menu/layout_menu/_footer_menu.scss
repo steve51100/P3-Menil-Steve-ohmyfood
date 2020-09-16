@@ -1,0 +1,48 @@
+.footer{
+    position: relative;
+    width: 730px;
+    margin-left: 10px;
+    background-color: $color-footer ;
+    padding-top: 20px;
+    margin-top: 80px;
+    padding-bottom: 30px;
+    z-index: 20;
+    .contact{
+      width:350px ;
+      margin-left: 30px;
+      
+    }
+    h3{
+      font-family: 'shrikhandregular',sans-serif;
+      color: white;
+      margin-top: 10px;
+      font-size: 1.4em;
+      font-weight: lighter;
+    }
+  }
+  ul{
+   padding: 0px;
+    
+    li {
+        color: white;
+        list-style: none;
+        margin-bottom: 10px;
+        font-family: 'roboto',sans-serif;
+        
+        a{
+          font-family: 'roboto',sans-serif;
+            color: white;
+            text-decoration: none;
+           
+        }
+    }
+  }
+  .fa-utensils:before{
+    color: white;
+    margin-right: 10px;
+  }
+  .fa-hands-helping:before{
+    color: white;
+    margin-right: 10px;
+    font-size: 11px;
+  }

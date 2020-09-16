@@ -1,0 +1,65 @@
+/** loader **/
+.sh1 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 50px 0 0;
+    border-color: #1eff00 transparent transparent transparent;
+    margin: 0 auto;
+    animation: shk1 1s ease-in-out infinite normal;
+    -webkit-animation: shk1 1s ease-in-out infinite normal;
+  }
+  
+  .sh2 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 50px 50px;
+    border-color: transparent  transparent #df1a54 transparent ;
+    margin: -50px auto 0;
+    animation: shk2 1s ease-in-out infinite alternate ;
+    -webkit-animation: shk2 1s ease-in-out infinite alternate ;
+  }
+  .lt {
+    color: $color-clair;
+    font-family: 'Roboto', sans-serif;
+    margin: 30px auto;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 10px;
+  }
+  .contener{
+    animation-name: chargement;
+    animation-duration: 0.005s;
+    animation-timing-function: ease;
+    animation-delay: 3s;
+    animation-iteration-count:initial;
+    animation-direction: normal;
+    animation-fill-mode:both;
+}
+.contener{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    h4{
+        font-size: 1.8em;
+        text-align: center;
+    }
+h4 span{
+        font-size: 0.5em;
+    }
+    }
+ main{
+      animation-name: main;
+      animation-duration: 0.005s;
+      animation-timing-function: ease;
+      animation-delay: 3s;
+      animation-iteration-count:initial;
+      animation-direction: normal;
+      animation-fill-mode:both;
+  }

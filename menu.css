@@ -1,0 +1,317 @@
+/*---annimation menu---*/
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.page {
+  width: 730px;
+  margin: auto;
+}
+
+section {
+  width: 750px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.img img {
+  width: 730px;
+  margin: auto;
+  margin-left: 11px;
+  position: relative;
+}
+
+.type {
+  font-size: 1.8em;
+  font-family: "roboto", sans-serif;
+  font-weight: 300;
+}
+.type span {
+  border-bottom: 3px solid #99E2D0;
+  margin-top: 10px;
+}
+
+.carte_menu {
+  margin: auto;
+  height: 1600px;
+  background-color: #f6f6f6;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  margin-top: -105px;
+  margin-left: 11px;
+  margin-right: -11px;
+  position: relative;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.carte_menu .title {
+  display: flex;
+  align-items: center;
+}
+.carte_menu .title i {
+  width: 100%;
+  font-size: 50px;
+  font-weight: 350;
+  text-align: right;
+  margin-right: 50px;
+}
+.carte_menu h1 {
+  font-family: "shrikhandregular", sans-serif;
+  margin-bottom: 25px;
+  align-items: center;
+  margin-right: 50px;
+  font-size: 2.6em;
+  font-weight: lighter;
+}
+
+.menu {
+  display: flex;
+  width: 680px;
+  border-radius: 15px;
+  height: 100px;
+  font-family: "roboto", sans-serif;
+  box-shadow: 0px 0px 20px #bdbcbc;
+  margin-bottom: 15px;
+}
+
+.btn {
+  width: 680px;
+  height: 100px;
+  box-shadow: 0px 0px 20px #bdbcbc;
+  border-radius: 15px;
+  font-family: "roboto", sans-serif;
+  display: flex;
+  margin-bottom: 15px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  flex-grow: 1;
+}
+
+.detail p {
+  font-size: 1.4em;
+  font-weight: bold;
+  width: 519px;
+  padding-left: 15px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.detail p span {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.prix {
+  width: 120px;
+  display: flex;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.animation {
+  background-color: #99e2c0;
+  color: white;
+  justify-content: center;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  font-size: 1.2em;
+  transition: 700ms;
+  opacity: 0;
+}
+
+/*--- modification detail full palette--*/
+.entree {
+  opacity: 0;
+  animation-name: entree;
+  animation-duration: 800ms;
+  animation-fill-mode: both;
+}
+@keyframes entree {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.main-dish {
+  opacity: 0;
+  animation-name: main-dish;
+  animation-timing-function: cubic-bezier(0.33, 0, 0.15, 0.99);
+  animation-duration: 800ms;
+  animation-delay: 300ms;
+  animation-fill-mode: both;
+}
+@keyframes main-dish {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.dessert {
+  opacity: 0;
+  animation-name: dessert;
+  animation-timing-function: cubic-bezier(0.33, 0, 0.15, 0.99);
+  animation-duration: 800ms;
+  animation-delay: 700ms;
+  animation-fill-mode: both;
+}
+@keyframes dessert {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.envoi {
+  width: 250px;
+  position: relative;
+  margin-top: -141px;
+  margin-left: 210px;
+  z-index: 30;
+}
+.envoi .explore {
+  width: 300px;
+  font-size: 1.8em;
+  background: linear-gradient(#FF79DA, #9356DC);
+  border-radius: 30px;
+  border: transparent;
+  height: 60px;
+  color: white;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+header i {
+  margin-left: 40px;
+  font-size: 25px;
+}
+header img {
+  width: 280px;
+  height: 50px;
+  margin: auto;
+  margin-left: 180px;
+}
+
+.footer {
+  position: relative;
+  width: 730px;
+  margin-left: 10px;
+  background-color: #353535;
+  padding-top: 20px;
+  margin-top: 80px;
+  padding-bottom: 30px;
+  z-index: 20;
+}
+.footer .contact {
+  width: 350px;
+  margin-left: 30px;
+}
+.footer h3 {
+  font-family: "shrikhandregular", sans-serif;
+  color: white;
+  margin-top: 10px;
+  font-size: 1.4em;
+  font-weight: lighter;
+}
+
+ul {
+  padding: 0px;
+}
+ul li {
+  color: white;
+  list-style: none;
+  margin-bottom: 10px;
+  font-family: "roboto", sans-serif;
+}
+ul li a {
+  font-family: "roboto", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.fa-utensils:before {
+  color: white;
+  margin-right: 10px;
+}
+
+.fa-hands-helping:before {
+  color: white;
+  margin-right: 10px;
+  font-size: 11px;
+}
+
+@font-face {
+  font-family: "shrikhandregular";
+  src: url("./font/shrikhand-regular-webfont.woff2") format("woff2"), url("./font/shrikhand-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "robotoregular";
+  src: url("./font/roboto-regular-webfont.woff2") format("woff2"), url("./font/roboto-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.contenu :hover .animation {
+  transform: scale(1);
+  transform-origin: 50% 0%;
+  width: 200px;
+  transition: 800ms;
+}
+.contenu :hover .circle {
+  transform: rotate(-360deg);
+  opacity: 1;
+  font-size: 35px;
+  transition: 400ms;
+}
+.contenu .tarif {
+  display: flex;
+}
+.contenu .envoi {
+  display: inline-flex;
+  width: 711px;
+  margin: auto;
+  border: transparent;
+}
+.contenu .explore {
+  width: 350px;
+  height: 70px;
+  margin-left: 150px;
+  border-radius: 35px;
+  font-size: 1.6em;
+  color: white;
+  background: linear-gradient(#FF79DA, #9356DC);
+  margin-top: 70px;
+  text-align: center;
+  box-shadow: 1px 6px 17px -5px #636262;
+  border: transparent;
+}
+.contenu .explore:hover {
+  box-shadow: 1px 6px 17px -1px #706f6f;
+  border: transparent, transparent;
+}
+
+/*# sourceMappingURL=menu.css.map */

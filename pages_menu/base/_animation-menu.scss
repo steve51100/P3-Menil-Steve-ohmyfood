@@ -1,0 +1,50 @@
+.entree{
+    opacity: 0;
+    animation-name: entree;
+    animation-duration: 800ms;
+    animation-fill-mode: both;
+    @keyframes entree {
+        0%{
+           
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+            
+        }
+    }
+}
+.main-dish{
+   opacity: 0;
+   animation-name: main-dish;
+   animation-timing-function: cubic-bezier(0.33, 0, 0.15, 0.99);
+   animation-duration:800ms;
+   animation-delay: 300ms;
+   animation-fill-mode: both;
+   @keyframes main-dish {
+    0%{
+       opacity: 0;
+    }
+    100%{
+       opacity: 1;
+    }
+       
+   }
+}
+.dessert{
+   opacity: 0;
+   animation-name: dessert;
+   animation-timing-function: cubic-bezier(0.33, 0, 0.15, 0.99);
+   animation-duration: 800ms;
+   animation-delay: 700ms;
+   animation-fill-mode: both;
+   @keyframes dessert{
+    0%{
+       opacity: 0;
+    }
+    100%{
+       opacity: 1;
+    }
+       
+   }
+}

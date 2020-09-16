@@ -1,0 +1,123 @@
+@media screen and (min-width:1440px){
+    .Menu{
+        
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    aside{
+        height: 850px;
+    }
+    .contact{
+        margin-left:268px;
+    }
+}
+
+
+
+
+
+@media screen and ( min-width:1024px){
+    .Menu1, .Menu2{
+        display: flex;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    aside{
+        height: 850px;
+    }
+    .contact{
+        margin-left:268px;
+    }
+}
+
+
+@media screen and ( min-width:768px) and (max-width:1024px) {
+    .Menu1, .Menu2{
+        display: flex;
+        
+    }
+    aside{
+        height: 850px;
+    }
+    nav{
+        width: 60%;
+    }
+    .contact{
+        margin-left: 163px;
+    }
+}
+
+
+
+
+
+@media screen and ( max-width:767px ){
+    nav{
+        width: 80%;
+        h2{
+            text-align: start;
+            font-size: 1.6em;
+        }
+    }
+    .align_menu{
+        width: 80%;
+        margin: auto;
+        h3{
+            text-align: center;
+            font-size: 1.6em;
+        }
+    }
+}
+@media screen and (max-width:425px){
+    .align_menu h3{
+        text-align: start;
+    }
+}
+@media screen and ( max-width:375px ){
+    
+    .section1, .section2, .section3, .section4{
+        width: 300px;
+        height: 245px;
+    }
+    aside{
+        height: 1250px ;
+    }
+    .contact{
+        width: 300px;
+        margin: auto;
+    }
+}
+@media screen and ( max-width:320px ){
+    header{
+        width: 100%;
+        background-size: 153px;
+        height: 35px;
+    }
+    .map{
+        font-size: 0.9em;
+        i{
+            margin-right: -5px;
+            margin-left: -36px;
+        }
+    }
+    .A h2{
+        font-size: 1.6em;
+    }
+    aside{
+        height: 1000px;
+    }
+    .section1, .section2, .section3, .section4{
+        width: 256px;
+        height: 192px;
+    }
+    .section2{
+        background-position-y: -117px;
+    }
+    .description h4{
+        font-size: 0.9em;
+    }
+    .contact{
+        width: 256px;
+        margin: auto;
+    }
+}

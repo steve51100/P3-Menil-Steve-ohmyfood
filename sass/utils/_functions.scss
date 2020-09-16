@@ -1,0 +1,31 @@
+/** animation loader debut **/
+@keyframes shk1 {
+    0% {
+      transform: rotate(-360deg);
+    }  
+    
+    100% {
+      
+    }
+  }
+  
+  @keyframes shk2 {
+    0% {
+      transform: rotate(360deg);
+    }
+    100% {
+      
+    }
+  }
+  @keyframes chargement{
+    from{ opacity: 1 ;}
+    to { opacity: 0 ;}
+  }
+  /** animation loader fin **/
+
+  /** animation affichage page acceuil debut **/
+  
+  @keyframes main{
+    from{ opacity: 0;}
+    to{ opacity: 1;}
+  }

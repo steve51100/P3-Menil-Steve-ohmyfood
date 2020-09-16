@@ -1,0 +1,214 @@
+.carte_menu .title i{
+    width: 0px;
+    margin-left: 216px;
+
+}
+.herb{
+    height: 130px;
+}
+.fleche{
+    color: black;
+    
+}
+@media screen and (max-width:320px){
+  body{
+      margin: 0px;
+      padding: 0px;
+  }
+  .page{
+      zoom: 0.4;
+      width:99.5%;
+      margin-left: -10px;
+  }
+  .fleche .fas{
+      font-size: 50px;
+  }
+  header .img{
+      width: 413px;
+  }
+  .img img{
+      width: 790px;
+  }
+  .carte_menu{
+      width: 764px;
+  }
+  .carte_menu h1{
+      font-size: 60px;
+      margin-right: 5px;
+  }
+  .carte_menu .title i{
+      font-size: 70px;
+  }
+  .detail p{
+      font-size: 30px;
+  }
+  .detail p span{
+      font-size: 25px;
+  }
+  .btn{
+      height: 126px;
+  }
+  .contenu .herb{
+      height: 165px;
+  }
+  .explore{
+      margin-top: 211px;
+  }
+  .envoi{
+      margin-left: 300px;
+  }
+  .footer{
+      width: 799px;
+  }
+}
+
+@media screen and (max-width:375px){
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    .page{
+        zoom: 0.4;
+        width:99.5%;
+        margin-left: -10px;
+    }
+    .fleche .fas{
+        font-size: 50px;
+    }
+    .detail{
+        margin-right: 140px;
+    }
+    .img img{
+        width: 880px;
+    }
+    .btn{
+        width: 820px;
+    }
+    .carte_menu{
+        width: 850px;
+        height: 1900px;
+    }
+    .carte_menu h1{
+        font-size: 60px;
+        margin-right: 5px;
+    }
+    .carte_menu .title i{
+        font-size: 70px;
+    }
+    .detail p{
+        font-size: 30px;
+    }
+    .detail p span{
+        font-size: 25px;
+    }
+    .btn{
+        height: 126px;
+    }
+    .contenu .herb{
+        height: 165px;
+    }
+    .explore{
+        margin-top: 281px;
+
+    }
+    .envoi{
+        margin-left: 300px;
+        margin-top: -420px;
+    }
+    .footer{
+        width: 880px;
+    }
+    .footer .contact{
+        font-size: 25px;
+    }
+ }
+  
+  @media screen and (min-width:375px) and (max-width:425px) {
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    .page{
+        zoom: 0.4;
+        width:99.5%;
+        margin-left: -10px;
+    }
+    .fleche .fas{
+        font-size: 50px;
+    }
+    .detail{
+        margin-right: 140px;
+    }
+    header{
+        margin-top: 50px;
+        height: 145px;
+    }
+    header img{
+
+        width: 463px;
+        height: 81px;
+       
+    }
+    .img img{
+        width: 975px;
+    }
+    .btn{
+        width: 820px;
+    }
+    .carte_menu{
+        width: 950px;
+        height: 1900px;
+    }
+    .carte_menu h1{
+        font-size: 60px;
+        margin-right: 100px;
+    }
+    .carte_menu .title i{
+        font-size: 70px;
+    }
+    .detail{
+        margin-right: 233px;
+    }
+    .detail p{
+        font-size: 30px;
+    }
+    .detail p span{
+        font-size: 25px;
+    }
+    .btn{
+        height: 126px;
+        width: 920px;
+    }
+    .contenu .herb{
+        height: 165px;
+    }
+    .explore{
+        margin-top: 281px;
+
+    }
+    .envoi{
+        margin-left: 350px;
+        margin-top: -420px;
+    }
+    .footer{
+        width: 980px;
+    }
+    .footer .contact{
+        font-size: 25px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

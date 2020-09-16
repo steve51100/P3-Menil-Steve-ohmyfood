@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'shrikhandregular';
+  src: url('./font/shrikhand-regular-webfont.woff2') format('woff2'),
+       url('./font/shrikhand-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+@font-face {
+  font-family: 'robotoregular';
+  src: url('./font/roboto-regular-webfont.woff2') format('woff2'),
+       url('./font/roboto-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contenu{
+  :hover{
+    @include animation;
+    @include circle;
+  }
+
+
+
+
+
+
+.tarif{
+  display: flex;
+
+}
+
+.envoi{
+  display: inline-flex;
+  width: 711px;
+  margin: auto;
+  border: transparent;
+}
+.explore{
+ 
+  width: 350px;
+  height: 70px;
+  margin-left: 150px;
+  border-radius: 35px;
+  
+  font-size: 1.6em;
+  color: white;
+  background:linear-gradient(#FF79DA,#9356DC);
+  margin-top: 70px;
+  text-align: center;
+  box-shadow: 1px 6px 17px -5px rgb(99, 98, 98);
+  border: transparent;
+  &:hover{
+    box-shadow: 1px 6px 17px -1px rgb(112, 111, 111);
+    border: transparent,transparent;
+  }
+}
+}

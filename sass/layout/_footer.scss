@@ -1,0 +1,40 @@
+.footer{
+    width: 100%;
+    margin: auto;
+    background-color: $color-sombre ;
+    padding-top: 20px;
+    margin-top: -130px;
+    padding-bottom: 30px;
+    h3{
+        color: $color-white;
+      margin-top: 10px;
+       font-size: 1.8em;
+    }
+}
+ul{
+   padding: 0px;
+    
+    li {
+        color: $color-white;
+        list-style: none;
+        margin-bottom: 10px;
+        a{
+            color: $color-white;
+            text-decoration: none;
+        }
+    }
+}
+.fa-utensils:before{
+    color: $color-white;
+    margin-right: 10px;
+}
+.fa-hands-helping:before{
+    color: $color-white;
+    margin-right: 10px;
+    font-size: 11px;
+}
+.contact{
+    width:350px ;
+    margin: auto;
+    
+}
