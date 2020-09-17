@@ -10,6 +10,12 @@
     color: black;
     
 }
+.envoi{
+    margin-top: 90px;
+}
+.footer{
+    margin-left: -30px;
+}
 @media screen and (max-width:320px){
   body{
       margin: 0px;
@@ -56,6 +62,7 @@
   }
   .envoi{
       margin-left: 300px;
+      margin-top: 290px;
   }
   .footer{
       width: 799px;
@@ -68,7 +75,7 @@
         padding: 0px;
     }
     .page{
-        zoom: 0.4;
+        zoom: 0.385;
         width:99.5%;
         margin-left: -10px;
     }
@@ -113,7 +120,7 @@
     }
     .envoi{
         margin-left: 300px;
-        margin-top: -420px;
+        margin-top: -170px;
     }
     .footer{
         width: 880px;
@@ -183,7 +190,7 @@
         height: 165px;
     }
     .explore{
-        margin-top: 281px;
+        margin-top: 481px;
 
     }
     .envoi{
@@ -194,9 +201,11 @@
         width: 980px;
     }
     .footer .contact{
-        font-size: 25px;
+        font-size: 24px;
     }
   }
+
+
 
 
 
