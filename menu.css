@@ -5,233 +5,118 @@ body {
 }
 
 .page {
-  width: 100%;
+  width: 25%;
   margin-left: 0px;
+  margin: auto;
 }
 
 /*--  image menu--*/
-@media screen and (max-width: 2560px) {
-  .page {
-    width: 100%;
-    margin-left: 0px;
-  }
-
-  .img img {
-    width: 100%;
-  }
+.img img {
+  width: 100%;
 }
-/*-- carte des menu --*/
+
+/*-- carte des menus --*/
 /*-- debut--*/
-@media screen and (max-width: 1440px) {
-  /*-- contour de carte --*/
-  .carte_menu {
-    width: 100%;
-    height: 1600px;
-    background-color: #f6f6f6;
-    border-top-right-radius: 50px;
-    border-top-left-radius: 50px;
-    margin-top: -105px;
-    position: relative;
-  }
-
-  /*-- titre + logo coeur --*/
-  .title {
-    display: flex;
-    align-items: center;
-  }
-  .title i {
-    width: 100%;
-    font-size: 35px;
-    font-weight: 350;
-    text-align: right;
-    margin-right: 35px;
-  }
-  .title h1 {
-    font-family: "shrikhandregular", sans-serif;
-    margin-bottom: 25px;
-    align-items: center;
-    margin-right: 50px;
-    font-size: 2em;
-    font-weight: lighter;
-  }
+/*-- contour de carte --*/
+.carte_menu {
+  width: 100%;
+  height: 1320px;
+  background-color: #f6f6f6;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  margin-top: -54px;
+  position: relative;
 }
-@media screen and (max-width: 1024px) {
-  /*-- contour de carte --*/
-  .carte_menu {
-    width: 100%;
-    height: 1600px;
-    background-color: #f6f6f6;
-    border-top-right-radius: 50px;
-    border-top-left-radius: 50px;
-    margin-top: -105px;
-    position: relative;
-  }
 
-  /*-- titre + logo coeur --*/
-  .title {
-    display: flex;
-    align-items: center;
-  }
-  .title i {
-    width: 100%;
-    font-size: 35px;
-    font-weight: 350;
-    text-align: right;
-    margin-right: 35px;
-  }
-  .title h1 {
-    font-family: "shrikhandregular", sans-serif;
-    margin-bottom: 25px;
-    align-items: center;
-    margin-right: 50px;
-    font-size: 2em;
-    font-weight: lighter;
-  }
+/*-- titre + logo coeur --*/
+.title {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
 }
-@media screen and (max-width: 768px) {
-  /*-- contour de carte --*/
-  .carte_menu {
-    width: 100%;
-    height: 1600px;
-    background-color: #f6f6f6;
-    border-top-right-radius: 50px;
-    border-top-left-radius: 50px;
-    margin-top: -105px;
-    position: relative;
-  }
-
-  /*-- titre + logo coeur --*/
-  .title {
-    display: flex;
-    align-items: center;
-  }
-  .title i {
-    width: 100%;
-    font-size: 35px;
-    font-weight: 350;
-    text-align: right;
-    margin-right: 35px;
-  }
-  .title h1 {
-    font-family: "shrikhandregular", sans-serif;
-    margin-bottom: 25px;
-    align-items: center;
-    margin-right: 50px;
-    font-size: 2em;
-    font-weight: lighter;
-  }
+.title i {
+  width: 100%;
+  font-size: 35px;
+  font-weight: 350;
+  text-align: right;
+  margin-right: 35px;
 }
-@media screen and (max-width: 425px) {
-  /*-- contour de carte --*/
-  .carte_menu {
-    width: 100%;
-    height: 1320px;
-    background-color: #f6f6f6;
-    border-top-right-radius: 50px;
-    border-top-left-radius: 50px;
-    margin-top: -54px;
-    position: relative;
-  }
-
-  /*-- titre + logo coeur --*/
-  .title {
-    display: flex;
-    align-items: center;
-    margin-left: 15px;
-  }
-  .title i {
-    width: 100%;
-    font-size: 35px;
-    font-weight: 350;
-    text-align: right;
-    margin-right: 35px;
-  }
-  .title h1 {
-    font-family: "shrikhandregular", sans-serif;
-    margin-bottom: 25px;
-    align-items: center;
-    margin-right: 50px;
-    font-size: 2em;
-    font-weight: lighter;
-  }
-
-  .entree, .main-dish, .dessert {
-    margin-left: 15px;
-  }
-
-  .menu {
-    display: flex;
-    width: 680px;
-    border-radius: 15px;
-    height: 70px;
-    font-family: "roboto", sans-serif;
-    box-shadow: 0px 0px 20px #bdbcbc;
-    margin-bottom: 15px;
-  }
-
-  .btn {
-    width: 95%;
-    height: 90px;
-    box-shadow: 0px 0px 20px #bdbcbc;
-    border-radius: 15px;
-    font-family: "roboto", sans-serif;
-    display: flex;
-    margin-bottom: 15px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    flex-grow: 1;
-  }
-  .btn .detail p {
-    /*--- police ecriture menu--*/
-    font-size: 18px;
-    font-weight: bold;
-    width: 264px;
-    padding-left: 15px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-  }
-  .btn .detail p span {
-    font-weight: 300;
-    font-size: 16px;
-  }
-  .btn .prix {
-    width: 120px;
-    display: flex;
-    margin-left: 10px;
-    justify-content: center;
-    align-items: flex-end;
-    font-size: 20px;
-    font-weight: bold;
-  }
-  .btn .animation {
-    background-color: #99e2c0;
-    color: white;
-    justify-content: center;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    width: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .btn .circle {
-    font-size: 1.2em;
-    transition: 700ms;
-    opacity: 0;
-  }
+.title h1 {
+  font-family: "shrikhandregular", sans-serif;
+  margin-bottom: 25px;
+  align-items: center;
+  margin-right: 50px;
+  font-size: 2em;
+  font-weight: lighter;
 }
-@media screen and (max-width: 375px) {
-  .btn .detail p {
-    width: 238px;
-  }
+
+.entree, .main-dish, .dessert {
+  margin-left: 15px;
 }
-@media screen and (max-width: 320px) {
-  .btn .detail p {
-    width: 189px;
-  }
+
+.menu {
+  display: flex;
+  width: 680px;
+  border-radius: 15px;
+  height: 70px;
+  font-family: "roboto", sans-serif;
+  box-shadow: 0px 0px 20px #bdbcbc;
+  margin-bottom: 15px;
 }
+
+.btn {
+  width: 95%;
+  height: 90px;
+  box-shadow: 0px 0px 20px #bdbcbc;
+  border-radius: 15px;
+  font-family: "roboto", sans-serif;
+  display: flex;
+  margin-bottom: 15px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  flex-grow: 1;
+}
+.btn .detail p {
+  /*--- police ecriture menu--*/
+  font-size: 18px;
+  font-weight: bold;
+  width: 264px;
+  padding-left: 15px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.btn .detail p span {
+  font-weight: 300;
+  font-size: 16px;
+}
+.btn .prix {
+  width: 120px;
+  display: flex;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 20px;
+  font-weight: bold;
+}
+.btn .animation {
+  background-color: #99e2c0;
+  color: white;
+  justify-content: center;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn .circle {
+  font-size: 1.2em;
+  transition: 700ms;
+  opacity: 0;
+}
+
 /*-- carte des menu --*/
 /*-- fin-- */
 /*--
@@ -362,27 +247,34 @@ body {
   }
 }
 
-@media screen and (max-width: 425px) {
-  .envoi {
-    width: 250px;
-    position: relative;
-    margin: auto;
-    z-index: 30;
-  }
-  .envoi .explore {
-    width: 240px;
-    font-size: 1.8em;
-    margin-top: 25px;
-    background: linear-gradient(#FF79DA, #9356DC);
-    border-radius: 30px;
-    border: transparent;
-    height: 60px;
-    color: white;
-  }
+.envoi {
+  width: 250px;
+  position: relative;
+  margin: auto;
+  z-index: 30;
 }
+.envoi .explore {
+  width: 240px;
+  font-size: 1.8em;
+  margin-top: 25px;
+  background: linear-gradient(#FF79DA, #9356DC);
+  border-radius: 30px;
+  border: transparent;
+  height: 60px;
+  color: white;
+}
+
+.btn .detail p {
+  width: 238px;
+}
+
+.btn .detail p {
+  width: 189px;
+}
+
 @media screen and (max-width: 1440px) {
   .page {
-    width: 100%;
+    width: 40%;
   }
 
   header {
@@ -394,6 +286,7 @@ body {
   header i {
     margin-left: 40px;
     font-size: 25px;
+    margin-right: 100px;
   }
   header img {
     width: 250px;
@@ -403,7 +296,7 @@ body {
 }
 @media screen and (max-width: 1024px) {
   .page {
-    width: 100%;
+    width: 40%;
   }
 
   header {
@@ -415,6 +308,7 @@ body {
   header i {
     margin-left: 40px;
     font-size: 25px;
+    margin-right: 50px;
   }
   header img {
     width: 250px;
@@ -442,6 +336,7 @@ body {
     width: 250px;
     height: 50px;
     margin: auto;
+    margin-left: 150px;
     text-align: center;
   }
 }
@@ -464,7 +359,7 @@ body {
     width: 250px;
     height: 50px;
     margin: auto;
-    margin-left: 50px;
+    margin-left: 0px;
   }
 }
 @media screen and (max-width: 375px) {
@@ -483,7 +378,7 @@ body {
     font-size: 25px;
   }
   header img {
-    width: 75%;
+    width: 175px;
     height: 50px;
     margin: auto;
     margin-left: 25px;
@@ -511,40 +406,39 @@ body {
     margin-left: 25px;
   }
 }
-@media screen and (max-width: 425px) {
-  .footer {
-    width: 100%;
-    background-color: #353535;
-    padding-top: 20px;
-    margin-top: 80px;
-    padding-bottom: 30px;
-  }
-  .footer .contact {
-    width: 300px;
-    margin-left: 15px;
-  }
-  .footer h3 {
-    font-family: "shrikhandregular", sans-serif;
-    color: white;
-    margin-top: 10px;
-    font-size: 1.4em;
-    font-weight: lighter;
-  }
-  .footer ul {
-    padding: 0px;
-  }
-  .footer ul li {
-    color: white;
-    list-style: none;
-    margin-bottom: 10px;
-    font-family: "roboto", sans-serif;
-  }
-  .footer ul li a {
-    font-family: "roboto", sans-serif;
-    color: white;
-    text-decoration: none;
-  }
+.footer {
+  width: 100%;
+  background-color: #353535;
+  padding-top: 20px;
+  margin-top: 80px;
+  padding-bottom: 30px;
 }
+.footer .contact {
+  width: 300px;
+  margin-left: 15px;
+}
+.footer h3 {
+  font-family: "shrikhandregular", sans-serif;
+  color: white;
+  margin-top: 10px;
+  font-size: 1.4em;
+  font-weight: lighter;
+}
+.footer ul {
+  padding: 0px;
+}
+.footer ul li {
+  color: white;
+  list-style: none;
+  margin-bottom: 10px;
+  font-family: "roboto", sans-serif;
+}
+.footer ul li a {
+  font-family: "roboto", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
 @font-face {
   font-family: "shrikhandregular";
   src: url("./font/shrikhand-regular-webfont.woff2") format("woff2"), url("./font/shrikhand-regular-webfont.woff") format("woff");
