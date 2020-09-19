@@ -1,5 +1,6 @@
 
 @import "./bastille/mixins_bastille.scss";
+
 @import "../pages_menu/bastille/utils_menu/colors_menu.scss";
 
 @import "../pages_menu/base/structure_menu.scss";
@@ -8,7 +9,7 @@
 @import "../pages_menu/layout_menu/button.scss";
 @import "../pages_menu/layout_menu/header_menu.scss";
 @import "../pages_menu/layout_menu/footer_menu.scss";
-
+@import "../pages_menu/bastille/utils_menu/responsive.scss";
 
 
 @import "./bastille/bastille.scss";

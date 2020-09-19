@@ -1,0 +1,152 @@
+ @media screen and (min-width:426px){
+    header{
+        
+        i{
+            margin-left: 25px;
+            font-size: 50px;
+           
+        }
+        img{
+            margin: auto;
+            width: 450px;
+            height: 100px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+    }
+     .page{
+         width: 100%;
+         margin: auto;
+     }
+     .carte_menu{
+         height: 2020px;
+     }
+     .btn{
+         width: 70%;
+         height: 120px;
+         margin: auto;
+         margin-bottom: 20px;
+         .detail{
+             width: 90%;
+             p{
+                 font-size: 25px;
+                 width: 360px;
+
+             span{
+                 font-size: 20px;
+             }
+             }
+            
+         }
+     }
+     .type{
+         font-size: 2.0em;
+         text-align: center;
+        
+     }
+    
+     .title{
+         width: 100%;
+         flex-direction: column;
+         text-align: center;
+         margin: auto;
+         margin-left: -30px;
+         h1{
+             font-size: 6em;
+             width: 600px;
+             
+             margin-left: 150px;
+         }
+         i{
+             width: 150px;
+             font-size: 3.5em;
+             margin-left: 50px;
+         }
+     }
+     .envoi{
+         margin-top: -200px;
+     }
+     .footer{
+         height: 450px;
+         .contact{
+            font-size: 30px; 
+            margin: auto;
+            margin-top: 125px;
+            width: 70%;
+           
+         }
+     }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:425px){
+    header{
+        
+        i{
+            margin-left: 5px;
+           
+        }
+        img{
+            margin: auto;
+        }
+    }
+    .page{
+      width: 100%;
+    }
+    header{
+        width: 100%;
+        
+    }
+    .img img{
+        width: 100%;
+    }
+    .carte_menu{
+        width: 100%;
+        height: 1350px;
+    }
+    .enchanted-carte{
+        height: 1500px;
+    }
+    .envoi{
+        margin-top: -168px;
+    }
+    .order{
+        margin-top: -165px;
+    }
+    .full-envoi{
+        padding-top: 41px;
+        margin-bottom: -38px;
+    }
+}
+@media screen and (max-width:320px){
+    header{
+        i{
+            margin-left: 5px;
+           
+        }
+        img{
+            margin: auto;
+        }
+    }
+    .btn{
+        .detail{
+            p{
+                font-size: 16px;
+                width: 190px;
+            }
+            span{
+                font-size: 13px;
+            }
+        }
+    }
+}

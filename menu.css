@@ -10,6 +10,12 @@ body {
   margin: auto;
 }
 
+.header i {
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
 /*--  image menu--*/
 .img img {
   width: 100%;
@@ -119,85 +125,6 @@ body {
 
 /*-- carte des menu --*/
 /*-- fin-- */
-/*--
-
-
-
-
-
-    .menu{
-      display: flex;
-     width: 680px;
-     border-radius: 15px;
-     height: 100px;
-     font-family: 'roboto',sans-serif;
-     box-shadow: 0px 0px 20px rgb(189, 188, 188);
-     margin-bottom: 15px;
-
-     }
-
-
-    .btn{
-       width: 90%;
-       height: 100px;
-
-      box-shadow: 0px 0px 20px #bdbcbc;
-       border-radius: 15px;
-       font-family: 'roboto',sans-serif;
-       display: flex;
-       margin-bottom: 15px;
-
-       text-overflow: ellipsis;
-       white-space: nowrap;
-       overflow: hidden;
-       flex-grow: 1;
-
-
-   }
-
-   .detail p{
-       font-size: 1.4em;
-       font-weight: bold;
-       width: 519px;
-       padding-left: 15px;
-       text-overflow: ellipsis;
-       white-space: nowrap;
-       overflow: hidden;
-       span{
-         font-weight: 300;
-         font-size: 20px;
-       }
-   }
-
-   .prix{
-       width: 120px;
-       display: flex;
-       margin-left: 10px;
-       justify-content: center;
-       align-items: flex-end;
-       font-size: 20px;
-       font-weight: bold;
-   }
-   .animation{
-       background-color: #99e2c0;
-       color: white;
-       justify-content: center;
-       border-top-right-radius: 15px;
-       border-bottom-right-radius: 15px;
-       width: 0px;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-
-
-   }
-   .circle{
-     font-size: 1.2em;
-     transition: 700ms;
-     opacity: 0;
-   }
-
- */
 .entree {
   opacity: 0;
   animation-name: entree;
@@ -268,144 +195,23 @@ body {
   width: 238px;
 }
 
-.btn .detail p {
-  width: 189px;
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+header i {
+  margin-left: 40px;
+  font-size: 25px;
+}
+header img {
+  width: 250px;
+  height: 50px;
+  margin: auto;
+  margin-left: 0px;
 }
 
-@media screen and (max-width: 1440px) {
-  .page {
-    width: 40%;
-  }
-
-  header {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    align-items: center;
-  }
-  header i {
-    margin-left: 40px;
-    font-size: 25px;
-    margin-right: 100px;
-  }
-  header img {
-    width: 250px;
-    height: 50px;
-    margin-left: auto;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .page {
-    width: 40%;
-  }
-
-  header {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    align-items: center;
-  }
-  header i {
-    margin-left: 40px;
-    font-size: 25px;
-    margin-right: 50px;
-  }
-  header img {
-    width: 250px;
-    height: 50px;
-    margin: auto;
-    text-align: center;
-  }
-}
-@media screen and (max-width: 768px) {
-  .page {
-    width: 100%;
-  }
-
-  header {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    align-items: center;
-  }
-  header i {
-    margin-left: 40px;
-    font-size: 25px;
-  }
-  header img {
-    width: 250px;
-    height: 50px;
-    margin: auto;
-    margin-left: 150px;
-    text-align: center;
-  }
-}
-@media screen and (max-width: 425px) {
-  .page {
-    width: 100%;
-  }
-
-  header {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    align-items: center;
-  }
-  header i {
-    margin-left: 40px;
-    font-size: 25px;
-  }
-  header img {
-    width: 250px;
-    height: 50px;
-    margin: auto;
-    margin-left: 0px;
-  }
-}
-@media screen and (max-width: 375px) {
-  .page {
-    width: 100%;
-  }
-
-  header {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    align-items: center;
-  }
-  header i {
-    margin-left: 20px;
-    font-size: 25px;
-  }
-  header img {
-    width: 175px;
-    height: 50px;
-    margin: auto;
-    margin-left: 25px;
-  }
-}
-@media screen and (max-width: 320px) {
-  .page {
-    width: 100%;
-  }
-
-  header {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    align-items: center;
-  }
-  header i {
-    margin-left: 20px;
-    font-size: 25px;
-  }
-  header img {
-    width: 75%;
-    height: 50px;
-    margin: auto;
-    margin-left: 25px;
-  }
-}
 .footer {
   width: 100%;
   background-color: #353535;
@@ -439,6 +245,140 @@ body {
   text-decoration: none;
 }
 
+@media screen and (min-width: 426px) {
+  header i {
+    margin-left: 25px;
+    font-size: 50px;
+  }
+  header img {
+    margin: auto;
+    width: 450px;
+    height: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .page {
+    width: 100%;
+    margin: auto;
+  }
+
+  .carte_menu {
+    height: 2020px;
+  }
+
+  .btn {
+    width: 70%;
+    height: 120px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .btn .detail {
+    width: 90%;
+  }
+  .btn .detail p {
+    font-size: 25px;
+    width: 360px;
+  }
+  .btn .detail p span {
+    font-size: 20px;
+  }
+
+  .type {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .title {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    margin-left: -30px;
+  }
+  .title h1 {
+    font-size: 6em;
+    width: 600px;
+    margin-left: 150px;
+  }
+  .title i {
+    width: 150px;
+    font-size: 3.5em;
+    margin-left: 50px;
+  }
+
+  .envoi {
+    margin-top: -200px;
+  }
+
+  .footer {
+    height: 450px;
+  }
+  .footer .contact {
+    font-size: 30px;
+    margin: auto;
+    margin-top: 125px;
+    width: 70%;
+  }
+}
+@media screen and (max-width: 425px) {
+  header i {
+    margin-left: 5px;
+  }
+  header img {
+    margin: auto;
+  }
+
+  .page {
+    width: 100%;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .img img {
+    width: 100%;
+  }
+
+  .carte_menu {
+    width: 100%;
+    height: 1350px;
+  }
+
+  .enchanted-carte {
+    height: 1500px;
+  }
+
+  .envoi {
+    margin-top: -168px;
+  }
+
+  .order {
+    margin-top: -165px;
+  }
+
+  .full-envoi {
+    padding-top: 41px;
+    margin-bottom: -38px;
+  }
+}
+@media screen and (max-width: 320px) {
+  header i {
+    margin-left: 5px;
+  }
+  header img {
+    margin: auto;
+  }
+
+  .btn .detail p {
+    font-size: 16px;
+    width: 190px;
+  }
+  .btn .detail span {
+    font-size: 13px;
+  }
+}
 @font-face {
   font-family: "shrikhandregular";
   src: url("./font/shrikhand-regular-webfont.woff2") format("woff2"), url("./font/shrikhand-regular-webfont.woff") format("woff");
