@@ -250,6 +250,14 @@ h4 {
   color: gray;
 }
 
+.section {
+  box-shadow: 0px 0px 20px 0px #bdbcbc;
+}
+.section :hover {
+  box-shadow: 0px 0px 20px 0px #8d8c8c;
+  filter: opacity(0.8);
+}
+
 .section1 {
   width: 350px;
   height: 278px;
@@ -262,6 +270,10 @@ h4 {
   border-radius: 10px;
   margin-bottom: 20px;
   background-image: url(image/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+}
+.section1 :hover {
+  box-shadow: none;
+  filter: none;
 }
 
 .Menu {
@@ -322,6 +334,10 @@ h4 {
 .section2 h4 {
   margin-right: 30%;
 }
+.section2 :hover {
+  box-shadow: none;
+  filter: none;
+}
 
 .section3 {
   width: 350px;
@@ -338,6 +354,10 @@ h4 {
 }
 .section3 h4 {
   margin-right: 56%;
+}
+.section3 :hover {
+  box-shadow: none;
+  filter: none;
 }
 
 .section3 i {
@@ -359,6 +379,10 @@ h4 {
 }
 .section4 h4 {
   margin-right: 44%;
+}
+.section4 :hover {
+  box-shadow: none;
+  filter: none;
 }
 
 .description i:hover {

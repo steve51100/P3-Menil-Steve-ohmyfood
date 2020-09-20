@@ -16,6 +16,10 @@ body {
   margin-left: 5px;
 }
 
+header .fleche {
+  color: black;
+}
+
 /*--  image menu--*/
 .img img {
   width: 100%;
@@ -284,6 +288,10 @@ header img {
     font-size: 20px;
   }
 
+  .btn:hover {
+    box-shadow: 0px 0px 20px #5c5b5b;
+  }
+
   .type {
     font-size: 2em;
     text-align: center;
@@ -302,7 +310,7 @@ header img {
     margin-left: 150px;
   }
   .title i {
-    width: 150px;
+    width: 0px;
     font-size: 3.5em;
     margin-left: 50px;
   }
@@ -352,6 +360,10 @@ header img {
 
   .envoi {
     margin-top: -168px;
+  }
+
+  .btn:hover {
+    box-shadow: 0px 0px 20px #5c5b5b;
   }
 
   .order {
