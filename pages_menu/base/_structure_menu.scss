@@ -56,16 +56,18 @@ header .fleche{
       margin-right: 35px;
       
     }
-    
+   
     h1{
       font-family:'shrikhandregular',sans-serif;
       margin-bottom: 25px;
       align-items: center;
       margin-right: 50px;
       font-size: 2em;
+    
       
       font-weight: lighter;
     }
+    
     }
     .entree, .main-dish, .dessert{
       margin-left: 15px;
@@ -141,6 +143,32 @@ header .fleche{
     }
        
    }
+   .title{
+    .restaurant-carre{
+      margin-left: 139px;
+      margin-top: -52px;
+      left: 10px;
+      zoom: 1.05;
+      opacity: 0;
+      
+     
+      animation-name: svg;
+      animation-duration: 2000ms;
+      clip-path: url(#restaurant-path-heart);
+      
+  
+    }
+    
+  }
+ .title{
+   .restaurant-carre:hover{
+     opacity: 1;
+     animation-iteration-count: infinite;
+     animation-duration: 2000ms;
+   }
+ }
+
+
 
 /*-- carte des menu --*/
 /*-- fin-- */

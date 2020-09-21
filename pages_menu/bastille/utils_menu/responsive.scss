@@ -15,7 +15,7 @@
         }
     }
      .page{
-         width: 100%;
+         width: 70%;
          margin: auto;
      }
      .carte_menu{
@@ -40,8 +40,12 @@
          }
      }
      .btn:hover{
-         box-shadow: 0px 0px 20px #5c5b5b;;
+       
+         box-shadow: 0px 0px 20px $color-shadow;
+       
      }
+    
+    
      .type{
          font-size: 2.0em;
          text-align: center;
@@ -54,6 +58,7 @@
          text-align: center;
          margin: auto;
          margin-left: -30px;
+         
          h1{
              font-size: 6em;
              width: 600px;
@@ -66,28 +71,46 @@
              margin-left: 50px;
              
          }
+         svg{
+            
+             z-index: 30;
+             left: 10px;
+             width: 60px;
+             height: 30px;
+             zoom: 2;
+
+         }
         
-        
+          
+           
+           
          
      }
     
+    
      .envoi{
-         margin-top: -200px;
+         margin-top: -165px;
+     }
+     .enchanted-carte{
+         height: 2360px;
+     }
+     .order-pate{
+         margin-top: -169px;
      }
      .footer{
          height: 450px;
          .contact{
-            font-size: 30px; 
+            font-size: 20px; 
             margin: auto;
             margin-top: 125px;
             width: 70%;
            
          }
      }
+    
  }
 
-
-
+ 
 
 
 
@@ -129,7 +152,7 @@
         margin-top: -168px;
     }
     .btn:hover{
-        box-shadow: 0px 0px 20px #5c5b5b;
+        box-shadow: 0px 0px 20px $color-shadow;
     }
     .order{
         margin-top: -165px;
@@ -138,6 +161,31 @@
         padding-top: 41px;
         margin-bottom: -38px;
     }
+    .title{
+        h1{
+            margin-right: 95px;
+        }
+        
+        .restaurant-carre{
+            opacity: 1;
+            position: relative;
+            
+            margin-left: 15px;
+            left: -66px;
+            margin-bottom: 0px;
+            margin-top: 10px;
+            zoom: 1.35;
+        }
+      
+    }
+    .title{
+        svg{
+            width: 30px;
+            height: 30px;
+           
+        }
+    }
+    
 }
 @media screen and (max-width:320px){
     header{
