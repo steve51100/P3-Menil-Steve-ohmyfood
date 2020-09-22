@@ -61,7 +61,7 @@ aside{
  
  }
  .description span{
-     font-weight: 350;
+     font-weight: lighter;
      font-family: 'roboto',sans-serif;
  }
  
@@ -84,8 +84,8 @@ aside{
      
       animation-name: svg;
       animation-duration: 2000ms;
-      clip-path: url(#restaurant-path-heart);
-      
+      clip-path: url(#heart);
+     
   
     }
     

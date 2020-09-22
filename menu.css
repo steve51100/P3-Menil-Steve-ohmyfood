@@ -48,7 +48,7 @@ header .fleche {
 .title i {
   width: 100%;
   font-size: 35px;
-  font-weight: 350;
+  font-weight: lighter;
   text-align: right;
   margin-right: 35px;
 }
@@ -479,7 +479,7 @@ header img {
   .title i {
     width: 100%;
     font-size: 35px;
-    font-weight: 350;
+    font-weight: lighter;
     text-align: right;
     margin-right: -22px;
   }
@@ -523,7 +523,7 @@ header img {
   .title i {
     width: 100%;
     font-size: 35px;
-    font-weight: 350;
+    font-weight: lighter;
     text-align: right;
     margin-right: -27px;
   }
@@ -590,7 +590,7 @@ header img {
 }
 .contenu .explore:hover {
   box-shadow: 1px 6px 17px -1px #706f6f;
-  border: transparent, transparent;
+  border: transparent;
 }
 
 /*# sourceMappingURL=menu.css.map */
