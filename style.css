@@ -27,6 +27,69 @@
     opacity: 1;
   }
 }
+/*annimation du coeur*/
+@keyframes svg {
+  0% {
+    background-color: white;
+  }
+  10% {
+    background: linear-gradient(0deg, #FF79DA 0%, #9356DC 10%, white 0%);
+  }
+  15% {
+    background: linear-gradient(0deg, #FF79DA 0%, #9356DC 15%, white 5%);
+  }
+  20% {
+    background: linear-gradient(0deg, #FF79DA 0%, #9356DC 20%, white 10%);
+  }
+  25% {
+    background: linear-gradient(0deg, #FF79DA 0%, #9356DC 25%, white 15%);
+  }
+  30% {
+    background: linear-gradient(0deg, #FF79DA 0%, #9356DC 30%, white 20%);
+  }
+  35% {
+    background: linear-gradient(0deg, #FF79DA 0%, #9356DC 35%, white 25%);
+  }
+  40% {
+    background: linear-gradient(0deg, #FF79DA 0%, #9356DC 40%, white 30%);
+  }
+  45% {
+    background: linear-gradient(0deg, #FF79DA 0%, #9356DC 45%, white 35%);
+  }
+  50% {
+    background: linear-gradient(0deg, #FF79DA 0%, #9356DC 50%, white 40%);
+  }
+  55% {
+    background: linear-gradient(0deg, #FF79DA 0%, #9356DC 55%, white 45%);
+  }
+  60% {
+    background: linear-gradient(0deg, #FF79DA 0%, #9356DC 60%, white 50%);
+  }
+  65% {
+    background: linear-gradient(0deg, #FF79DA 0%, #9356DC 65%, white 55%);
+  }
+  70% {
+    background: linear-gradient(0deg, #FF79DA 0%, #9356DC 70%, white 60%);
+  }
+  75% {
+    background: linear-gradient(0deg, #FF79DA 0%, #9356DC 75%, white 65%);
+  }
+  80% {
+    background: linear-gradient(0deg, #FF79DA 0%, #9356DC 80%, white 70%);
+  }
+  85% {
+    background: linear-gradient(0deg, #FF79DA 0%, #9356DC 85%, white 75%);
+  }
+  90% {
+    background: linear-gradient(0deg, #FF79DA 0%, #9356DC 90%, white 80%);
+  }
+  95% {
+    background: linear-gradient(0deg, #FF79DA 0%, #9356DC 95%, white 85%);
+  }
+  100% {
+    background: linear-gradient(0deg, #FF79DA 0%, #9356DC 100%, white 90%);
+  }
+}
 @font-face {
   font-family: "shrikhandregular";
   src: url("shrikhand-regular-webfont.woff2") format("woff2"), url("shrikhand-regular-webfont.woff") format("woff");
@@ -177,6 +240,7 @@ body {
   margin: 0px;
   padding: 0px;
   width: 100%;
+  cursor: pointer;
 }
 
 h1, h2, h3, h4 {
@@ -242,6 +306,30 @@ h4 {
   font-family: "roboto";
   margin-left: 20px;
   margin-right: 41%;
+}
+
+.description .restaurant-carre {
+  width: 30px;
+  height: 30px;
+  margin-left: -24px;
+  margin-top: 5px;
+  left: 10px;
+  zoom: 1.05;
+  opacity: 1;
+  animation-name: svg;
+  animation-duration: 2000ms;
+  clip-path: url(#restaurant-path-heart);
+}
+
+.description .restaurant-carre:hover {
+  opacity: 1;
+  animation-iteration-count: infinite;
+  animation-duration: 2000ms;
+}
+
+.description svg {
+  width: 0px;
+  height: 0px;
 }
 
 .full-palette i {
