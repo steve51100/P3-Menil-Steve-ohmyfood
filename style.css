@@ -313,7 +313,7 @@ aside h3 {
 h4 {
   font-family: "roboto";
   margin-left: 20px;
-  margin-right: 41%;
+  margin-right: 40%;
 }
 
 .description .restaurant-carre {
@@ -428,7 +428,7 @@ h4 {
   background-position-y: -154px;
 }
 .section2 h4 {
-  margin-right: 30%;
+  margin-right: 29%;
 }
 .section2 :hover {
   box-shadow: none;
@@ -449,7 +449,7 @@ h4 {
   background-image: url(image/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
 }
 .section3 h4 {
-  margin-right: 56%;
+  margin-right: 55%;
 }
 .section3 :hover {
   box-shadow: none;
@@ -474,7 +474,7 @@ h4 {
   background-image: url(image/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
 }
 .section4 h4 {
-  margin-right: 44%;
+  margin-right: 43%;
 }
 .section4 :hover {
   box-shadow: none;
