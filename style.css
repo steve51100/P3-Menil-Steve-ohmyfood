@@ -92,13 +92,13 @@
 }
 @font-face {
   font-family: "shrikhandregular";
-  src: url("shrikhand-regular-webfont.woff2") format("woff2"), url("shrikhand-regular-webfont.woff") format("woff");
+  src: url("./font/shrikhand-regular-webfont.woff2") format("woff2"), url("./font/shrikhand-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "robotoregular";
-  src: url("roboto-regular-webfont.woff2") format("woff2"), url("roboto-regular-webfont.woff") format("woff");
+  src: url("./font/roboto-regular-webfont.woff2") format("woff2"), url("./font/roboto-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -157,6 +157,8 @@ ul li {
 ul li a {
   color: #FFFF;
   text-decoration: none;
+  font-family: "robotoregular", sans-serif;
+  font-weight: lighter;
 }
 
 .fa-utensils:before {
@@ -173,6 +175,12 @@ ul li a {
 .contact {
   width: 350px;
   margin: auto;
+  font-family: "robotoregular", sans-serif;
+  font-weight: lighter;
+}
+.contact h3 {
+  font-family: "shrikhandregular", sans-serif;
+  font-weight: lighter;
 }
 
 nav {

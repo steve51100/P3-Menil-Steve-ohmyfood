@@ -1,3 +1,5 @@
+
+
 .footer{
     width: 100%;
     margin: auto;
@@ -21,6 +23,8 @@ ul{
         a{
             color: $color-white;
             text-decoration: none;
+            @include police-para;
+            font-weight: lighter;
         }
     }
 }
@@ -36,5 +40,10 @@ ul{
 .contact{
     width:350px ;
     margin: auto;
-    
+    @include police-para;
+    font-weight: lighter;
+    h3{
+        font-family:'shrikhandregular',sans-serif ;
+        font-weight: lighter;
+    }
 }
