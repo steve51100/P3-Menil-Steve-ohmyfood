@@ -24,7 +24,7 @@
 
 
 .contenu{
-  :hover{
+  :active{
     @include animation;
     @include circle;
    
