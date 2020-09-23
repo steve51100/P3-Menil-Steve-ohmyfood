@@ -62,7 +62,9 @@ header .fleche {
 }
 
 .entree, .main-dish, .dessert {
+  margin-top: 50px;
   margin-left: 15px;
+  font-family: "roboto", sans-serif;
 }
 
 .menu {
@@ -143,6 +145,10 @@ header .fleche {
   opacity: 1;
   animation-iteration-count: infinite;
   animation-duration: 2000ms;
+}
+
+.type span {
+  border-bottom: 3px solid #99E2D0;
 }
 
 /*-- carte des menu --*/
@@ -343,12 +349,12 @@ header img {
   }
 
   .page {
-    width: 90%;
+    width: 100%;
     margin: auto;
   }
 
   .carte_menu {
-    height: 2020px;
+    height: 2090px;
   }
 
   .btn {
@@ -446,11 +452,11 @@ header img {
 
   .carte_menu {
     width: 100%;
-    height: 1350px;
+    height: 1458px;
   }
 
   .enchanted-carte {
-    height: 1410px;
+    height: 1558px;
   }
 
   .envoi {
@@ -470,11 +476,14 @@ header img {
     margin-bottom: -38px;
   }
 
+  .title {
+    padding-top: 50px;
+  }
   .title h1 {
     font-size: 1.6em;
     width: 80%;
     position: absolute;
-    top: 10px;
+    top: 50px;
   }
   .title i {
     width: 100%;
@@ -518,7 +527,7 @@ header img {
     font-size: 1.4em;
     width: 80%;
     position: absolute;
-    top: 10px;
+    top: 50px;
   }
   .title i {
     width: 100%;
