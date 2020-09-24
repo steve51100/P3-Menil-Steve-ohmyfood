@@ -92,13 +92,13 @@
 }
 @font-face {
   font-family: "shrikhandregular";
-  src: url("../font/shrikhand-regular-webfont.woff2") format("woff2"), url("../font/shrikhand-regular-webfont.woff") format("woff");
+  src: url("./font/shrikhand-regular-webfont.woff2") format("woff2"), url("./font/shrikhand-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "robotoregular";
-  src: url("../font/roboto-regular-webfont.woff2") format("woff2"), url("../font/roboto-regular-webfont.woff") format("woff");
+  src: url("./font/roboto-regular-webfont.woff2") format("woff2"), url("./font/roboto-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -244,6 +244,18 @@ h2 {
   color: #757474;
 }
 
+@font-face {
+  font-family: "shrikhandregular";
+  src: url("./font/shrikhand-regular-webfont.woff2") format("woff2"), url("./font/shrikhand-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "robotoregular";
+  src: url("./font/roboto-regular-webfont.woff2") format("woff2"), url("./font/roboto-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   margin: 0px;
   padding: 0px;
