@@ -157,7 +157,7 @@ ul li {
 ul li a {
   color: #FFFF;
   text-decoration: none;
-  font-family: "robotoregular", sans-serif;
+  font-family: "robotoregular";
   font-weight: lighter;
 }
 
@@ -175,7 +175,7 @@ ul li a {
 .contact {
   width: 350px;
   margin: auto;
-  font-family: "robotoregular", sans-serif;
+  font-family: "robotoregular";
   font-weight: lighter;
 }
 .contact h3 {
