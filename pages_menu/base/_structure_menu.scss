@@ -74,14 +74,14 @@ header .fleche{
     .entree, .main-dish, .dessert{
       margin-top: 50px;
       margin-left: 15px;
-      font-family: 'roboto',sans-serif;
+      font-family: 'robotoregular',sans-serif;
     }
     .menu{
       display: flex;
      width: 680px;
      border-radius: 15px;
      height: 70px;
-     font-family: 'roboto',sans-serif;
+     font-family: 'robotoregular',sans-serif;
      box-shadow: 0px 0px 20px rgb(189, 188, 188);
      margin-bottom: 15px;
     
@@ -91,10 +91,10 @@ header .fleche{
     .btn{
        width: 95%;
        height: 90px;
-       
+       background-color: $color-blanc;
        box-shadow: 0px 0px 20px #bdbcbc;
        border-radius: 15px;
-       font-family: 'roboto',sans-serif;
+       font-family: 'robotoregular',sans-serif;
        display: flex;
        margin-bottom: 15px;
       
