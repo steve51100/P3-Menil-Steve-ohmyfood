@@ -2,6 +2,7 @@
 body{
   margin: 0px;
   padding: 0px;
+  -webkit-tap-highlight-color: transparent;
 }
 .page{
   width:25%;
@@ -152,11 +153,11 @@ header .fleche{
       margin-top: -52px;
       left: 10px;
       zoom: 1.05;
-      opacity: 1;
+      opacity:0;
       
      
       animation-name: svg;
-      animation-duration: 2000ms;
+      animation-duration: 800ms;
       clip-path: url(#restaurant-path-heart);
       
   
@@ -167,7 +168,7 @@ header .fleche{
    .restaurant-carre:hover{
      opacity: 1;
      animation-iteration-count: infinite;
-     animation-duration: 2000ms;
+     animation-duration: 800ms;
    }
  }
  .type{
