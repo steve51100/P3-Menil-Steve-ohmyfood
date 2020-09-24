@@ -103,7 +103,7 @@
   font-style: normal;
 }
 .explore {
-  font-family: "roboto";
+  font-family: "robotoregular";
   font-size: 1.2em;
   color: #FFFF;
   display: block;
@@ -230,14 +230,14 @@ nav .choix-3 {
 }
 
 h2 {
-  font-family: "roboto";
+  font-family: "robotoregular";
   text-align: center;
   font-size: 1.8em;
   margin-top: 50px;
 }
 
 .text {
-  font-family: "roboto";
+  font-family: "robotoregular";
   font-size: 1.3em;
   text-align: center;
   justify-content: center;
