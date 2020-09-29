@@ -347,7 +347,7 @@ header i {
     font-size: 50px;
   }
   header h1 {
-    font-size: 90px;
+    font-size: 50px;
   }
 
   .page {
@@ -370,10 +370,13 @@ header i {
   }
   .btn .detail p {
     font-size: 25px;
-    width: 360px;
+    width: auto;
+    text-overflow: ellipsis;
   }
   .btn .detail p span {
     font-size: 20px;
+    text-overflow: ellipsis;
+    width: auto;
   }
 
   .btn:hover {
@@ -393,8 +396,8 @@ header i {
     margin-left: -30px;
   }
   .title h1 {
-    font-size: 6em;
-    width: 600px;
+    font-size: 3.8em;
+    width: 50%;
     margin-left: 150px;
   }
   .title i {
