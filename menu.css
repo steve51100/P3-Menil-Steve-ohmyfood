@@ -568,13 +568,13 @@ header i {
   font-weight: normal;
   font-style: normal;
 }
-.contenu :active .animation {
+.contenu :hover .animation {
   transform: scale(1);
   transform-origin: 50% 0%;
   width: 200px;
   transition: 800ms;
 }
-.contenu :active .circle {
+.contenu :hover .circle {
   transform: rotate(-360deg);
   opacity: 1;
   font-size: 35px;
