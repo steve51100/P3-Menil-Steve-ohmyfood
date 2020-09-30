@@ -185,9 +185,9 @@
             margin-right: -22px;
         }
         .restaurant-carre{
-            opacity: 1;
+           
             position: relative;
-            
+            animation-fill-mode: both;
             margin-left: 15px;
             left: -24px;
             margin-bottom: 0px;
@@ -241,9 +241,9 @@
             margin-right: -27px;
         }
         .restaurant-carre{
-            opacity: 1;
-            position: relative;
             
+            position: relative;
+            animation-fill-mode: both;
             margin-left: 15px;
             left: -20px;
             margin-bottom: 0px;

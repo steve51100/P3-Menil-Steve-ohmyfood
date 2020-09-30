@@ -498,8 +498,8 @@ header i {
     margin-right: -22px;
   }
   .title .restaurant-carre {
-    opacity: 1;
     position: relative;
+    animation-fill-mode: both;
     margin-left: 15px;
     left: -24px;
     margin-bottom: 0px;
@@ -542,8 +542,8 @@ header i {
     margin-right: -27px;
   }
   .title .restaurant-carre {
-    opacity: 1;
     position: relative;
+    animation-fill-mode: both;
     margin-left: 15px;
     left: -20px;
     margin-bottom: 0px;
